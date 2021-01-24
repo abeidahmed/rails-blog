@@ -1,24 +1,36 @@
-# README
+# Blog app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the first rails project on the Microverse curriculum. In this project,
+we were required to build a basic blog application where users can create
+articles, comment on those articles, simultaneously delete and edit those records.
 
-Things you may want to cover:
+## Getting started
 
-* Ruby version
+- Clone the repo `https://github.com/abeidahmed/rails-blog.git`
+- Run `bundle install` to install all the gems
+- Setup your database by:
+  - Adding your `db` credentials in the `config/database.yml` file
+  - Run `rails db:create db:migrate` to setup your `db`
+- Run `rails s` to start the server
+- Go to `http://localhost:3000` on your browser
 
-* System dependencies
+## Author
 
-* Configuration
+#### Abeid Ahmed
 
-* Database creation
+- GitHub: [@abeidahmed](https://github.com/abeidahmed)
+- Twitter: [@iamhawaabi](https://twitter.com/iamhawaabi)
+- LinkedIn: [Abeid Ahmed](https://www.linkedin.com/in/abeid-ahmed-b21882172/)
 
-* Database initialization
+## Contributing
 
-* How to run the test suite
+- Clone the repo `https://github.com/abeidahmed/rails-blog.git`
+- `git checkout -b awesome-feature`
+- All your changes
+- `git add .`
+- `git commit -m 'My cool feature'`
+- `git push -u origin awesome-feature`
 
-* Services (job queues, cache servers, search engines, etc.)
+## License
 
-* Deployment instructions
-
-* ...
+Copyright 2020 Abeid Ahmed. [MIT](https://github.com/abeidahmed/tic-tac-toe/blob/development/LICENSE) licensed.
