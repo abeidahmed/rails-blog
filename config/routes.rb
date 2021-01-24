@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :articles, only: %i[index show]
+  resources :articles
 
   root "articles#index"
 end
